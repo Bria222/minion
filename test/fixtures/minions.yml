@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  minionid: MyString
+  name: MyString
+  age: 1
+  country: MyString
+  email: MyString
+  height: 1.5
+  make: MyString
+
+two:
+  minionid: MyString
+  name: MyString
+  age: 1
+  country: MyString
+  email: MyString
+  height: 1.5
+  make: MyString
