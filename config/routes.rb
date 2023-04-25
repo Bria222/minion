@@ -1,23 +1,26 @@
 Rails.application.routes.draw do
-  namespace :api do 
+  namespace :api do
     namespace :v1 do
-      get '/users', to: 'users#index'
-      get '/users/:id', to: 'users#show'
-      post '/user/add', to: 'users#create'
-      delete '/user/delete/:id', to: 'users#destroy'
-      patch '/user/update/:id', to: 'users#update'
+      get '/summon', to: 'minions#index'
+      get '/minions/:id', to: 'minions#show'
+      post '/minion/add', to: 'minions#create'
+      delete '/minion/delete/:id', to: 'minions#destroy'
+      patch '/minion/update/:id', to: 'minions#update'
 
-
-      get '/products', to: 'products#index' do
-      get :image, on: :member 
-    end
-      get '/products/:id', to: 'products#show'do
-      get :image, on: :member 
-    end
-      post '/product/add', to: 'products#create'
-      delete '/product/delete/:id', to: 'products#destroy'
-      patch '/product/update/:id', to: 'products#update'
-      
     end
   end
+
+
+
+
+
+
+  # get 'minions/index'
+  # get 'minions/show'
+  # get 'minions/new'
+  # get 'minions/create'
+  # get 'minions/edit'
+  # get 'minions/update'
+  # get 'minions/destroy'
+
 end
