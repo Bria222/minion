@@ -115,9 +115,6 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.14.3-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.14.3-x86_64-linux)
-      racc (~> 1.4)
-    pg (1.5.1)
     pg (1.5.1-x64-mingw-ucrt)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -158,9 +155,6 @@ GEM
       io-console (~> 0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sprockets (4.2.0)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
     thor (1.2.1)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -174,7 +168,6 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -184,7 +177,6 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4, >= 7.0.4.3)
-  sprockets (~> 4.0)
   tzinfo-data
 
 RUBY VERSION
